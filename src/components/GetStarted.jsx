@@ -1,9 +1,10 @@
 import styles from '../style';
 import { start } from '../assets';
+import './css/hover.css';
 
 const GetStarted = () => (
   <div className={`${styles.flexCenter} w-[100px] h-[100px] rounded-full bg-blue-gradient p-[2px] cursor-pointer mr-7`}>
-    <div className={`${styles.flexCenter} flex-col bg-dimWhite w-[100%] h-[100%] rounded-full`}>
+    <div className={`${styles.flexCenter} flex-col bg-dimWhite w-[100%] h-[100%] rounded-full`} id="gs">
       <div className={`${styles.flexStart} flex-row`}>
         <p className='font-poppins font-medium text-[18px] leading-[23px] mr-2'>
           <span className='text-black'>Get</span>

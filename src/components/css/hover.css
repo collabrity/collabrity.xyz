@@ -1,0 +1,24 @@
+#nav-logo:hover {
+    cursor: pointer;
+    transform: rotate(360deg) scale(1.1);
+    transition: 900ms ease-in-out;
+}
+
+#nav-link:hover {
+    color: #33bbcf;
+    opacity: 75%;
+}
+
+#gs:hover {
+    width: 110%;
+    border: 3px solid #33bbcf;
+    border-style: groove;
+    transform: scale(1.1);
+    transition: 900ms ease-out;
+}
+
+#premium-btn:hover {
+    font-weight: 800;
+    color: rgb(70, 70, 70);
+    transition: all 1500ms ease-out;
+}

@@ -1,5 +1,5 @@
 import styles from '../style';
-import { discount, discord, playlist } from "../assets";
+import { discount, wave } from "../assets";
 import GetStarted from './GetStarted'
 
 const Hero = () => (
@@ -35,7 +35,7 @@ const Hero = () => (
     </div>
 
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-      <img src={playlist} alt="music" className='w-[80%] h-[80%] relative z-[5] ml-1 object-contain' />
+      <img src={wave} alt="music" className='w-[80%] h-[80%] relative z-[5] ml-1 object-contain' />
       <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient'>
       </div>
       <div className='absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient'>

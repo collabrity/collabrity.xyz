@@ -1,10 +1,10 @@
-import { handshake, dvd, discord } from "../assets";
+import { handshake, headphones, discord } from "../assets";
 import styles, { layout } from '../style';
 
 const Partner = () => (
   <section id="partner" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={dvd} alt="dvd" className="w-[80%] h-[80%] z-[5]" />
+      <img src={headphones} alt="dvd" className="w-[40%] h-[80%] z-[5]" />
 
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient"/>
       <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient"/>

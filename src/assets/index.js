@@ -34,6 +34,8 @@ import pin from './thumbtack-solid.svg';
 import handshake from './handshake-solid.svg';
 import dvd from './dvd.svg';
 import discordWhite from './discord-white.png';
+import headphones from './headphones.png';
+import wave from './wave.png';
 
 export {
   airbnb,
@@ -72,4 +74,6 @@ export {
   handshake,
   dvd,
   discordWhite,
+  headphones,
+  wave,
 };
